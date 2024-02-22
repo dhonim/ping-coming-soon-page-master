@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Libre Franklin", sans-serif;
+}
+.font-300{
+    font-weight: 300;
+}
+.font-400{
+    font-weight: 400;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-600{
+    font-weight: 600;
+}
+.font-700{
+    font-weight: 700;
+}
+
+.button-style{
+    @apply flex items-center justify-center w-12 h-12 rounded-full text-Blue border-Blue border-2 cursor-pointer hover:bg-Blue hover:text-white;
+}
